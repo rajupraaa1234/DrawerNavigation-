@@ -38,7 +38,7 @@ const Drawer = createDrawerNavigator();
 
 const CustomDrawer = props =>{
    return (
-        <View style={{flex:1}}> 
+        <View style={{flex:1}} > 
                 <DrawerContentScrollView {...props}>
                       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',padding:20,backgroundColor:"#f6f6f6",marginBottom:20}}>
                           <View>
